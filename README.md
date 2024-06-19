@@ -30,8 +30,10 @@ This guide outlines the steps to set up and run the pipeline for the NBA player 
 
 1. **Create Conda Environment:**
 
+Make sure that you have conda installed.
 ```bash
 conda create --name MYPROJECT-NAME python=3.11
+conda activate MYPROJECT-NAME
 ```
 Replace MYPROJECT-NAME with the desired name for your Conda environment.
 
