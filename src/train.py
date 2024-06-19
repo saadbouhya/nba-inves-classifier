@@ -161,3 +161,7 @@ class Train:
         self.eval_model()
         self.save_model()
         logger.info("Train pipeline - ✅ OK!")
+
+
+t = Train()
+t.main()

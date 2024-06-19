@@ -72,5 +72,5 @@ This script will train the NBA player classifier model and save it as `model/1/M
 Use `uvicorn` to launch the FastAPI server, which provides an endpoint for real-time predictions based on the trained model:
 
 ```bash
-uvicorn src.app:app --reload
+poetry run uvicorn src.app:app --reload
 ```
